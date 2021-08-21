@@ -86,8 +86,8 @@ body{
     padding: 20PX;
     width: 100%;
     top: 0;
-    /* z-index: 1;
-    position: fixed; */
+    z-index: 1;
+    position: fixed;
     background-color: #fff
 }
 .header .container{
@@ -169,7 +169,7 @@ body{
 .landing{
     background-image: url(../Images/mountain.jpg);
     background-size: cover;
-    /* background-attachment: fixed; */
+    background-attachment: fixed;
     height: 100vh;
     position: relative;
 }

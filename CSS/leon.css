@@ -85,7 +85,6 @@ body{
 .header {
     padding: 20PX;
     width: 100%;
-    z-index: -1;
     position: fixed;
     top: 0;
     background-color: #fff
@@ -113,7 +112,7 @@ body{
     flex-wrap: wrap;
     width: 30px;
     justify-content: flex-end;
-    
+    z-index: 1;
 }
 .header .links .icon span{
     height: 2px;

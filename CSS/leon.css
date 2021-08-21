@@ -87,6 +87,7 @@ body{
     width: 100%;
     top: 0;
     z-index: 1;
+    position: fixed;
     background-color: #fff
 }
 .header .container{
@@ -138,6 +139,7 @@ body{
     background-color: #f6f6f6;
     min-width: 200px;
     top: calc(100% + 15px);
+    z-index: 1;
 }
 .header .links ul::before{
     content: "";
@@ -169,6 +171,7 @@ body{
     background-size: cover;
     background-attachment: fixed;
     height: 100vh;
+    position: relative;
 }
 
 .landing .intro-text {

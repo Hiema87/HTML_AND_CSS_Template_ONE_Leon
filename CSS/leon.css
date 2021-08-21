@@ -87,8 +87,8 @@ body{
     width: 100%;
     position: fixed;
     top: 0;
-    background-color: #fff
     z-index: 1;
+    background-color: #fff
 }
 .header .container{
     display: flex;
@@ -112,7 +112,7 @@ body{
     display: flex;
     flex-wrap: wrap;
     width: 30px;
-    justify-content: flex-end;
+    justify-content: flex-end; 
 }
 .header .links .icon span{
     height: 2px;

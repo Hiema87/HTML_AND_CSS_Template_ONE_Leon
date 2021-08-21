@@ -139,7 +139,6 @@ body{
     background-color: #f6f6f6;
     min-width: 200px;
     top: calc(100% + 15px);
-    z-index: 2;
 }
 .header .links ul::before{
     content: "";
@@ -369,7 +368,7 @@ body{
 .about .about-content .image::after{
     content: "";
     position: absolute;
-    border-left: 80px solid var(--main-color);
+    border-left: 100px solid var(--main-color);
     border-bottom: 80px solid var(--main-color);
     height: 300px;
     width: 120px;
